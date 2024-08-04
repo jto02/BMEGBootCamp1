@@ -2,14 +2,14 @@ package firstcode;
 
 class main {
     public static void main(String[] args) {
-        int[] pineapple = {0, 1, 2, 3, 4};
+        int[] pineapple1 = {0, 1, 2, 3, 4};
 
         int[] bar = new int[100];
         for(int i = 0; i < 100; i++){
             bar[i] = i;
         }
-        System.out.println("The number of even numbers in pineapple is:");
-        System.out.println(countEvenNum(pineapple, 5));
+        System.out.println("The number of even numbers in pineapple1 is:");
+        System.out.println(countEvenNum(pineapple1, 5));
 
         System.out.println("The number of even numbers in bar is:");
         System.out.println(countEvenNum(bar, 100));
